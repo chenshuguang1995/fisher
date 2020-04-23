@@ -1,4 +1,5 @@
 from flask import Flask
+from helper import is_isbn_or_key
 
 
 app = Flask(__name__)
@@ -18,13 +19,8 @@ def search(q, page):
         q普通关键字 isbn  isbn13:13位数字   isbn10:0到9,中间包含'-'
         page
     """
-    isbn_or_key = 'key'
-    if len(q) == 13 and q.isdigit():
-        isbn_or_key = 'isbn'
-    short_q = q.replace('-', '')
-    if '-' in q and len(short_q) == 10 and short_q.isdigit:
-        isbn_or_key = 'isbn'
-    pass
+    is_isbn_or_key(q)
+
 
 
 if __name__ == '__main__':
