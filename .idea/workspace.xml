@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef8d468c-940d-4f0c-b93f-e8a888438c2e" name="Default Changelist" comment="简单重构,将细节抽出来封装成函数">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/httper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yushu_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="G:\programingspace\fisher\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1asudv87lRYCAwQjTfu78i23XrM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RunManager">
+    <configuration name="fisher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fisher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fisher.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fisher" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef8d468c-940d-4f0c-b93f-e8a888438c2e" name="Default Changelist" comment="" />
+      <created>1587536712996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587536712996</updated>
+      <workItem from="1587536718641" duration="28932000" />
+      <workItem from="1588069115237" duration="2426000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次">
+      <created>1587610721993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587610721993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="简单重构,将细节抽出来封装成函数">
+      <created>1587612332382</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587612332382</updated>
+    </task>
+    <task id="LOCAL-00003" summary="简单重构">
+      <created>1588071224570</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588071224570</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次" />
+    <MESSAGE value="简单重构,将细节抽出来封装成函数" />
+    <MESSAGE value="简单重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单重构" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="29" key="#Notifications" timestamp="1587608953882">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="29" key="#Notifications/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587608953882" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1588071223723">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587610712983" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588071223723" />
+    <state x="129" y="55" key="DiffContextDialog" timestamp="1588070998882">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="55" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1588070998882" />
+    <state x="543" y="135" key="FileChooserDialogImpl" timestamp="1587609801821">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="543" y="135" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587609801821" />
+    <state x="496" y="282" key="Github.CreateGistDialog" timestamp="1587608989008">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="496" y="282" key="Github.CreateGistDialog/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587608989008" />
+    <state x="625" y="188" width="274" height="280" key="Github.ShareDialog" timestamp="1587610150806">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="625" y="188" width="274" height="280" key="Github.ShareDialog/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587610150806" />
+    <state x="535" y="72" key="Github.UntrackedFilesDialog" timestamp="1587610183040">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="535" y="72" key="Github.UntrackedFilesDialog/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587610183040" />
+    <state width="1322" height="221" key="GridCell.Tab.0.bottom" timestamp="1588070288238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="199" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643314" />
+    <state width="1322" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
+    <state width="1322" height="221" key="GridCell.Tab.0.center" timestamp="1588070288238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="199" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643313" />
+    <state width="1322" height="221" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
+    <state width="1322" height="221" key="GridCell.Tab.0.left" timestamp="1588070288238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="199" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643313" />
+    <state width="1322" height="221" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
+    <state width="1322" height="221" key="GridCell.Tab.0.right" timestamp="1588070288238">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="199" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643313" />
+    <state width="1322" height="221" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
+    <state width="1322" height="221" key="GridCell.Tab.1.bottom" timestamp="1588070288239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
+    <state width="1322" height="221" key="GridCell.Tab.1.center" timestamp="1588070288239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
+    <state width="1322" height="221" key="GridCell.Tab.1.left" timestamp="1588070288239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
+    <state width="1322" height="221" key="GridCell.Tab.1.right" timestamp="1588070288239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1322" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
+    <state x="289" y="0" key="SettingsEditor" timestamp="1587609221722">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="289" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587609221722" />
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1588071537933">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588071537933" />
+    <state x="375" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1588069115637">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="375" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588069115637" />
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588071504657">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587610677192" />
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1588071504657" />
+    <state x="472" y="170" key="git4idea.merge.GitMergeDialog" timestamp="1588071475879">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="472" y="170" key="git4idea.merge.GitMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1588071475879" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fisher.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/fisher.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/web/book.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app/web/book.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1588070206053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 flask0-12-2 = "*"
 flask = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
