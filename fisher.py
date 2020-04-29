@@ -1,23 +1,12 @@
 import json
 
-from flask import Flask, jsonify
-from helper import is_isbn_or_key
-from yushu_book import YuShuBook
+from app import create_app
 
-app = Flask(__name__)
-print('id为' + str(id(app)) + '的app实例化')
-app.config.from_object('config')
-
+# print('id为' + str(id(app)) + '的app实例化')
 # 这种方式导入flask默认必须大写
 # print(app.config['DEBUG'])
 
-
-@app.route('/hello')
-def hello():
-    return 'Hello Chen'
-
-
-from app.web import book
+app = create_app()
 
 
 if __name__ == '__main__':

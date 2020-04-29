@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef8d468c-940d-4f0c-b93f-e8a888438c2e" name="Default Changelist" comment="简单重构,将细节抽出来封装成函数">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/httper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yushu_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+    <list default="true" id="ef8d468c-940d-4f0c-b93f-e8a888438c2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/blueprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/web/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/web/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisher.py" beforeDir="false" afterPath="$PROJECT_DIR$/fisher.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +106,8 @@
       <option name="presentableId" value="Default" />
       <updated>1587536712996</updated>
       <workItem from="1587536718641" duration="28932000" />
-      <workItem from="1588069115237" duration="2426000" />
+      <workItem from="1588069115237" duration="3304000" />
+      <workItem from="1588140797456" duration="5156000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1587610721993</created>
@@ -127,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588071224570</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="简单重构,分离视图函数">
+      <created>1588071589019</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588071589019</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +148,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -148,18 +160,23 @@
     <MESSAGE value="第一次" />
     <MESSAGE value="简单重构,将细节抽出来封装成函数" />
     <MESSAGE value="简单重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单重构" />
+    <MESSAGE value="简单重构,分离视图函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单重构,分离视图函数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="29" key="#Notifications" timestamp="1587608953882">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="29" key="#Notifications/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587608953882" />
-    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1588071223723">
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1588146291456">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587610712983" />
-    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588071223723" />
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1588146291456" />
+    <state width="801" height="466" key="DebuggerActiveHint" timestamp="1588142425090">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="801" height="466" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1588142425090" />
     <state x="129" y="55" key="DiffContextDialog" timestamp="1588070998882">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -180,54 +197,54 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="535" y="72" key="Github.UntrackedFilesDialog/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587610183040" />
-    <state width="1322" height="221" key="GridCell.Tab.0.bottom" timestamp="1588070288238">
+    <state width="1322" height="199" key="GridCell.Tab.0.bottom" timestamp="1588145817604">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1322" height="199" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643314" />
-    <state width="1322" height="221" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
-    <state width="1322" height="221" key="GridCell.Tab.0.center" timestamp="1588070288238">
+    <state width="1322" height="199" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588145817604" />
+    <state width="1322" height="199" key="GridCell.Tab.0.center" timestamp="1588145817604">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1322" height="199" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643313" />
-    <state width="1322" height="221" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
-    <state width="1322" height="221" key="GridCell.Tab.0.left" timestamp="1588070288238">
+    <state width="1322" height="199" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1588145817604" />
+    <state width="1322" height="199" key="GridCell.Tab.0.left" timestamp="1588145817604">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1322" height="199" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643313" />
-    <state width="1322" height="221" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
-    <state width="1322" height="221" key="GridCell.Tab.0.right" timestamp="1588070288238">
+    <state width="1322" height="199" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1588145817604" />
+    <state width="1322" height="199" key="GridCell.Tab.0.right" timestamp="1588145817604">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1322" height="199" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587607643313" />
-    <state width="1322" height="221" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588070288238" />
-    <state width="1322" height="221" key="GridCell.Tab.1.bottom" timestamp="1588070288239">
+    <state width="1322" height="199" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1588145817604" />
+    <state width="1322" height="221" key="GridCell.Tab.1.bottom" timestamp="1588145438491">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
-    <state width="1322" height="221" key="GridCell.Tab.1.center" timestamp="1588070288239">
+    <state width="1322" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1588145438491" />
+    <state width="1322" height="221" key="GridCell.Tab.1.center" timestamp="1588145438490">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
-    <state width="1322" height="221" key="GridCell.Tab.1.left" timestamp="1588070288239">
+    <state width="1322" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1588145438490" />
+    <state width="1322" height="221" key="GridCell.Tab.1.left" timestamp="1588145438490">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
-    <state width="1322" height="221" key="GridCell.Tab.1.right" timestamp="1588070288239">
+    <state width="1322" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1588145438490" />
+    <state width="1322" height="221" key="GridCell.Tab.1.right" timestamp="1588145438490">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588070288239" />
+    <state width="1322" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1588145438490" />
     <state x="289" y="0" key="SettingsEditor" timestamp="1587609221722">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="289" y="0" key="SettingsEditor/0.0.1366.738/1366.0.1680.1050@0.0.1366.738" timestamp="1587609221722" />
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1588071537933">
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2" timestamp="1588071723537">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588071537933" />
-    <state x="375" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1588069115637">
+    <state x="275" y="104" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1588071723537" />
+    <state x="375" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1588140797484">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="375" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588069115637" />
+    <state x="375" y="195" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1588140797484" />
     <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588071504657">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -238,33 +255,7 @@
     </state>
     <state x="472" y="170" key="git4idea.merge.GitMergeDialog/0.0.1366.738@0.0.1366.738" timestamp="1588071475879" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fisher.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/fisher.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/web/book.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/web/book.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1588070206053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1588145817592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
